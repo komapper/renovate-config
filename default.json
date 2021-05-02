@@ -1,0 +1,33 @@
+{
+  "assignAutomerge": true,
+  "extends": [
+    "config:base",
+    ":automergeMinor",
+    ":dependencyDashboard",
+    ":prHourlyLimitNone",
+    ":rebaseStalePrs"
+  ],
+  "ignorePaths": [
+    "docs/**"
+  ],
+  "labels": [
+    "dependencies"
+  ],
+  "packageRules": [
+    {
+      "groupName": "org.junit.jupiter",
+      "packagePatterns": [
+        "^org.junit.jupiter:"
+      ]
+    },
+    {
+      "groupName": "org.komapper",
+      "packagePatterns": [
+        "^org.komapper:"
+      ]
+    }
+  ],
+  "reviewers": [
+    "nakamura-to"
+  ]
+}
