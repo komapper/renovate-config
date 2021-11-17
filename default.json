@@ -2,7 +2,7 @@
   "assignAutomerge": true,
   "extends": [
     "config:base",
-    ":automergeMinor",
+    ":automergePatch",
     ":dependencyDashboard",
     ":prHourlyLimitNone",
     ":rebaseStalePrs"
