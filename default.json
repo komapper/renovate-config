@@ -1,11 +1,5 @@
 {
-  "assignAutomerge": true,
-  "extends": [
-    "config:base",
-    ":dependencyDashboard",
-    ":prHourlyLimitNone",
-    ":rebaseStalePrs"
-  ],
+  "extends": ["config:best-practices"],
   "ignorePaths": [
     "docs/**"
   ],
@@ -14,19 +8,10 @@
   ],
   "packageRules": [
     {
-      "groupName": "org.junit.jupiter",
-      "packagePatterns": [
-        "^org.junit.jupiter:"
-      ]
-    },
-    {
       "groupName": "org.komapper",
       "packagePatterns": [
         "^org.komapper:"
       ]
     }
-  ],
-  "reviewers": [
-    "nakamura-to"
   ]
 }
