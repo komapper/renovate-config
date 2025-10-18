@@ -12,6 +12,10 @@
       "packagePatterns": [
         "^org.komapper:"
       ]
+    },
+    {
+      "matchPackageNames": ["com.google.googlejavaformat"],
+      "allowedVersions": "<1.29.0"
     }
   ]
 }
