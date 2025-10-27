@@ -14,7 +14,7 @@
       ]
     },
     {
-      "matchPackageNames": ["com.google.googlejavaformat"],
+      "matchPackageNames": ["com.google.googlejavaformat:google-java-format"],
       "allowedVersions": "<1.29.0"
     }
   ]
